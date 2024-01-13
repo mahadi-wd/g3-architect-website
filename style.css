@@ -1,0 +1,99 @@
+/* work sence font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 20px 25px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+ 
+  
+  
+}
+
+
+/* header styles */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 40px 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+nav a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* banenr styles */
+
+.banner-content {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  line-height: 1.5rem;
+  margin-top: -10px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Responsive styles */
+
+/* Mobile devise */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tab or similler device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
