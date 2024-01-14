@@ -8,6 +8,8 @@
         padding: 20px;
     
     }
+    .facts-card-container, .sponsor,
+     .sponsor-container,
     nav, .teams-container, .teams-content {
         flex-direction: column;
     }
@@ -17,6 +19,22 @@
     .teams-content{
         text-align: center;
     }
+    .facts-heading{
+        text-align: center;
+    }
+    .facts-card-container .card{
+        width: 90%;
+
+    }
+    .sponsor-description{
+        max-width: 100%;
+
+    }
+    .sponsor-container img{
+        width:100%;
+        margin: 10px auto;
+    }
+
   }
   
   /* tab or similler device */
@@ -29,9 +47,12 @@
     nav, .teams-container{
         flex-direction: column;
     }
-    .teams-content{
+    .facts-heading,
+    .teams-content {
         text-align: center;
     }
+        
+    
   }
   
   
