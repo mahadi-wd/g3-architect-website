@@ -22,7 +22,7 @@
 
 header {
   background: rgba(255, 144, 14, 0.1);
-  padding: 40px 150px;
+  padding: 40px 100px;
 }
 
 nav {
@@ -73,27 +73,29 @@ nav a {
     margin-top: 30px;
 }
 
-/* Responsive styles */
 
-/* Mobile devise */
-@media screen and (max-width: 576px){
-    header{
-        padding: 20px;
-    
-    }
-    nav{
-        flex-direction: column;
-    }
+
+
+/* main section styles */
+
+main{
+  max-width: 1100px ;
+  margin: 0 auto;
+
+}
+/* teams section styles */
+.teams-container{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+.teams-img-container{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
 }
 
-/* tab or similler device */
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-
-    header{
-        padding: 50px;
-    }
-    nav{
-        flex-direction: column;
-    }
-}
